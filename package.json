@@ -1,0 +1,20 @@
+{
+  "name": "cameron-reece",
+  "version": "1.0.0",
+  "description": "Cameron Reece Software Developer Portfolio",
+  "author": "Cameron LaVallie",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
