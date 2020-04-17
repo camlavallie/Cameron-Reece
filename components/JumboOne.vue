@@ -8,7 +8,7 @@
     <h1 class="text-4xl justify-center text-gray-800 text-thin mt-3  font-thin">Cameron Reece LaVallie</h1>
     <p class="text-2xl justify-center text-gray-800 text-thin mb-3 font-thin">I built this site with <span class="text-green-500 font-semibold">Nuxt | VueJS</span></p>
     <div class="flex flex-wrap justify-center items-center">
-      <img class="w-48  rounded-md mr-4"
+      <img class="w-48  rounded-md md:mr-4 lg:mr-4"
            src="~assets/images/cam4.jpg">
       <div class="text-sm mt-3 md:mt-0 lg:mt-0">
         <p class="text-gray-900 leading-none text-xl  font-thin">Junior Developer ~ <span class="font-thin text-gray-700">Fort Worth, Texas</span></p>
