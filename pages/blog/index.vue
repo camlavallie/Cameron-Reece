@@ -6,7 +6,7 @@
     </div>
     <div class="mt-24 flex flex-col items-center">
       <div class="flex flex-col items-center">
-        <div class="swiper flex overflow-x-scroll w-1/2 lg:w-4/12">
+        <div class="swiper flex overflow-x-scroll px-3 md:w-1/2 w-full lg:w-4/12">
           <img
             class="w-full h-1/2 object-cover bg-gray-300"
             src="https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
