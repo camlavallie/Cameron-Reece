@@ -2,25 +2,21 @@
   <div class="container">
     <div>
       <JumboOne />
-      <!-- <h1 class="title text-6xl">
-        Welcome to <span class="text-gray-600">Cameron Reece!</span>
-      </h1> -->
-
-
+  
       <div class="mt-12 mb-24">
       <hr class="mb-12">
       <JumboFive />
       <hr class="mt-12">
       </div>
       
-      <div class="mb-24">        
+      <div class="mb-24" id="work">        
       <h1 class="text-3xl lg:text-5xl font-thin">
         Recent Work
       </h1>
       <JumboTwo />
       </div>
 
-      <div class="mb-24">
+      <div class="mb-24" id="skills">
         <h1 class="text-3xl lg:text-5xl font-thin">
         My Favorite Things!
       </h1>
@@ -30,6 +26,10 @@
       <div>
       <JumboFour />
       </div>
+      <div>
+      <JumboButtons />
+      </div>
+
       
     </div>
   </div>
@@ -41,6 +41,7 @@ import JumboTwo from '~/components/JumboTwo.vue'
 import JumboThree from '~/components/JumboThree.vue'
 import JumboFour from '~/components/JumboFour.vue'
 import JumboFive from '~/components/JumboFive.vue'
+import JumboButtons from '~/components/JumboButtons.vue'
 
 export default {
   components: {
@@ -49,6 +50,7 @@ export default {
     JumboThree,
     JumboFour,
     JumboFive,
+    JumboButtons,
   }
 }
 </script>

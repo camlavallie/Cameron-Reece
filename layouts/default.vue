@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="top-page">
     <Nav />
     <nuxt />
     <Footer />
