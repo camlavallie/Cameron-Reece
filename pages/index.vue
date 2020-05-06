@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container ">
     <div>
       <JumboOne />
   
@@ -15,6 +15,9 @@
       </h1>
       <JumboTwo />
       </div>
+      <div class="sticky flex text-left bg-opacity-25 top-0 left-0 trasnparent-25">
+      <JumboButtons />
+      </div>
 
       <div class="mb-24" id="skills">
         <h1 class="text-3xl lg:text-5xl font-thin">
@@ -25,9 +28,6 @@
 
       <div>
       <JumboFour />
-      </div>
-      <div>
-      <JumboButtons />
       </div>
 
       
@@ -63,8 +63,6 @@ export default {
 */
 .container {
   margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;

@@ -1,23 +1,34 @@
+
+
+
+
 <template>
-  <div class="text-center mt-3 px-12">
-    <hr>
-    <div class="flex items-center pt-5 justify-between ">
-      <a href="https://www.instagram.com/crlavallie/" target="_blank" class="px-2 w-24 opacity-50 hover:opacity-100 focus:opacity-100">
-        <img class="w-full" src="../assets/images/instagram.svg" alt>
-      </a>
+ <footer class="flex justify-center px-4 text-gray-100 bg-gray-800">
+        <div class="container py-6">
+            <h1 class="text-center text-lg font-thin lg:text-2xl">
+                Join 31,000+ other and never miss <br> out on new tips, tutorials, and more.
+            </h1>
 
-      <a href="https://www.linkedin.com/in/cameron-lavallie-53b5239a/" target="_blank" class="px-2 opacity-50 hover:opacity-100 focus:opacity-100">
-        <img class="w-24" src="../assets/images/linkedin.svg" alt>
-      </a>
+            <hr class="h-px mt-6 bg-gray-700 border-none">
 
-      <a href="https://www.facebook.com/cameron.lavallie" target="_blank" class="px-2 opacity-50 hover:opacity-100 focus:opacity-100">
-        <img class="w-12" src="../assets/images/facebook.svg" alt>
-      </a>
-    </div>
-    <div>
+            <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
+                <div>
+                    <a href="#" class="text-xl font-thin">Cameron<span class="text-blue-500">|Reece</span></a>
+                </div>
+                <div class="flex mt-4 md:m-0">
+                    <div class="-mx-4">
+                      <a href="/" class="px-4 text-sm">Home</a>
+                      <a href="/#work" class="px-4 text-sm">My Work</a>
+                      <a href="/#skills" class="px-4 text-sm">Skills</a>
+                      <a href="/blog" class="px-4 text-sm">Blog</a>
+                  	</div>
+                </div>
+            </div>
+                  <div class="flex justify-center">
       <p
         class="text-center text-gray-500 text-xs mt-3 mb-12"
-      >&copy;{{new Date().getFullYear()}} Cameron Reece. All rights reserved.</p>
+      >&copy;{{new Date().getFullYear()}} <span class="elena-kathryn font-thin text-xl"> Cameron<span class="text-blue-500">|Reece </span></span> All rights reserved.</p>
     </div>
-  </div>
+        </div>
+    </footer>
 </template>
