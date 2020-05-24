@@ -20,7 +20,7 @@
                       <a href="/" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Home</a>
                       <a href="/#work" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">My Work</a>
                       <a href="/#skills" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Skills</a>
-                      <a href="/blog" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Blog</a>
+                      <!-- <a href="/blog" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Blog</a> -->
                       <a href="/give" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Give</a>
                   	</div>
                 </div>
