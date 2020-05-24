@@ -1,56 +1,62 @@
-<template>
-  <div>
-    <div class="text-3xl lg:text-5xl font-thin text-center mt-12">
+   <template>
+   <div class="container">
+
+<div class="text-3xl lg:text-5xl font-thin text-center mt-12">
       <p class="text-gray-900">Blog Coming Soon...</p>
-      <p class="text-3xl text-gray-500">For now enjoy some beautiful mountians!</p>
+      <p class="text-3xl text-gray-500">For now enjoy some beautiful photos!</p>
+    </div> 
+    <b-carousel :autoplay="false" indicator-custom :indicator-inside="false" :overlay="gallery">
+        <b-carousel-item v-for="(item, i) in 20" :key="i">
+            <a @click="switchGallery(true)" class="image ">
+                <img :src="getImgUrl(i)">
+            </a>
+        </b-carousel-item>
+        <span v-if="gallery" @click="switchGallery(false)" class="modal-close is-large"/>
+        <template slot="indicators" slot-scope="props">
+            <figure class="al image" :draggable="false">
+                <img :draggable="false" :src="getImgUrl(props.i)" :title="props.i">
+            </figure>
+        </template>
+    </b-carousel>
     </div>
-    <div class="mt-24 flex flex-col items-center">
-      <div class="flex flex-col items-center">
-        <div class="swiper flex overflow-x-scroll w-1/2 md:w-1/2 w-full lg:w-4/12">
-          <img
-            class="w-auto h-64 md:h-1/2 lg:h-1/2 object-cover bg-gray-300"
-            src="https://images.pexels.com/photos/326235/pexels-photo-326235.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            id="slide1"
-          >
-          <img
-            class="w-auto h-64 md:h-1/2 lg:h-1/2 object-cover bg-gray-300"
-            src="https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            id="slide2"
-          >
-          <img
-            class="w-auto h-64 md:h-1/2 lg:h-1/2 object-cover bg-gray-300"
-            src="https://images.pexels.com/photos/629161/pexels-photo-629161.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            id="slide3"
-          >
-          <img
-            class="w-auto h-64 md:h-1/2 lg:h-1/2 object-cover bg-gray-300"
-            src="https://images.pexels.com/photos/135157/pexels-photo-135157.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            id="slide4"
-          >
-          <img
-            class="w-auto h-64 md:h-1/2 lg:h-1/2 object-cover bg-gray-300"
-            src="https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            id="slide5"
-          >
-        </div>
-      </div>
-      <div class="flex mt-4 mb-12">
-        <a href="#slide1" class="w-4 h-4 mx-1 bg-gray-400 rounded-full"></a>
-        <a href="#slide2" class="w-4 h-4 mx-1 bg-gray-400 rounded-full"></a>
-        <a href="#slide3" class="w-4 h-4 mx-1 bg-gray-400 rounded-full"></a>
-        <a href="#slide4" class="w-4 h-4 mx-1 bg-gray-400 rounded-full"></a>
-        <a href="#slide5" class="w-4 h-4 mx-1 bg-gray-400 rounded-full"></a>
-      </div>
-    </div>
-  </div>
 </template>
-<style type="text/css">
-.swiper {
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+
+<script>
+import Vue from 'vue'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
+
+Vue.use(Buefy)
+export default {
+    data() {
+        return {
+            gallery: false
+        }
+    },
+    methods: {
+        getImgUrl(value) {
+            value += 50
+            return `https://picsum.photos/id/10${value}/1230/500`
+        },
+        switchGallery(value) {
+            this.gallery = value
+            if (value) {
+                return document.documentElement.classList.add('is-clipped')
+            } else {
+                return document.documentElement.classList.remove('is-clipped')
+            }
+        }
+    }
 }
-.swiper > img {
-  scroll-snap-align: start;
+</script>
+
+<style>
+.is-active .al img {
+    border: 1px solid #fff;
+    filter: grayscale(0%);
+}
+.al img {
+    border: 1px solid transparent;
+    filter: grayscale(100%);
 }
 </style>

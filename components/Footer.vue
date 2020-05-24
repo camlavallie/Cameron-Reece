@@ -13,15 +13,15 @@
 
             <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
                 <div>
-                    <a href="#" class="text-xl font-thin">Cameron<span class="text-blue-500">|Reece</span></a>
+                    <a href="#" class="text-xl text-white hover:text-white font-thin">Cameron<span class="text-blue-500">|Reece</span></a>
                 </div>
                 <div class="flex mt-4 md:m-0">
                     <div class="-mx-4">
-                      <a href="/" class="px-4 text-sm">Home</a>
-                      <a href="/#work" class="px-4 text-sm">My Work</a>
-                      <a href="/#skills" class="px-4 text-sm">Skills</a>
-                      <a href="/blog" class="px-4 text-sm">Blog</a>
-                      <a href="/give" class="px-4 text-sm">Give</a>
+                      <a href="/" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Home</a>
+                      <a href="/#work" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">My Work</a>
+                      <a href="/#skills" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Skills</a>
+                      <a href="/blog" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Blog</a>
+                      <a href="/give" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Give</a>
                   	</div>
                 </div>
             </div>

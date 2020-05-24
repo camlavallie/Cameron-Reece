@@ -38,18 +38,17 @@
         </div>
     </section>
     <section class="bg-gray-800 py-32">
-        <div class="container mx-auto">
             <h1 class="text-5xl font-bold uppercase text-center text-gray-300">Want to know more?</h1>
-            <div class="flex justify-center mt-3">
+        <div class="container flex flex-wrap justify-center mx-auto">
+            
                 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j1aXXCl3b_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="m-3" width="560" height="315" src="https://www.youtube.com/embed/j1aXXCl3b_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            </div>
-            <div class="flex justify-center mt-3">
+          <iframe class="m-3" width="560" height="315" src="https://www.youtube.com/embed/1x77T0bIBaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-u6YE5VC7Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="m-3" width="560" height="315" src="https://www.youtube.com/embed/-u6YE5VC7Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            </div>
+    
         </div>
     </section>
 </div>

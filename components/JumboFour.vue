@@ -21,7 +21,7 @@
                 </button>
       </a>
       </div>
-      <p class="text-gray-darker max-w-sm mx-auto mb-6">Technology Skills: <span class="text-gray-500">HTML5, CSS, JavaScript, TypeScript, jQuery, ReactJS, AngularJS, Vue|NuxtJS, NoSQL, MySQL, SQL server, MLab, NodeJS, Express, MongoDB, Mongoose, Passport, <span class="text-black">Graphpic Design Skills:</span> Creative Suite (Lightroom, Photoshop, Illustrator, and Indesign), Creative Cloud.</span></p>
+      <p class="text-gray-darker max-w-sm mx-auto mb-6">Technology Skills: <span class="text-gray-500">HTML5, CSS, JavaScript, TypeScript, jQuery, ReactJS, AngularJS, Vue|NuxtJS, NoSQL, MySQL, SQL server, MLab, NodeJS, Express, MongoDB, Mongoose, Passport, <span class="text-black">Graphic Design Skills:</span> Creative Suite (Lightroom, Photoshop, Illustrator, and Indesign), Creative Cloud.</span></p>
     </div>
   </div>
 </template>

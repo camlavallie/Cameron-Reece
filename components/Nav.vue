@@ -16,11 +16,11 @@
       </div>
     </div>
     <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0 ">
-      <nuxt-link to="/" class="block px-2 py-1 text-white font-thin rounded hover:bg-gray-800">Home</nuxt-link>
-      <nuxt-link to="/#work" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">My Work</nuxt-link>
-      <nuxt-link to="/#skills" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Skills</nuxt-link>
-      <nuxt-link to="/blog" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Blog</nuxt-link>
-      <nuxt-link to="/give" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Give</nuxt-link>
+      <nuxt-link to="/" class="block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white">Home</nuxt-link>
+      <nuxt-link to="/#work" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2">My Work</nuxt-link>
+      <nuxt-link to="/#skills" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2">Skills</nuxt-link>
+      <nuxt-link to="/blog" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2">Blog</nuxt-link>
+      <nuxt-link to="/give" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2">Give</nuxt-link>
     </nav>
   </header>
 </template>

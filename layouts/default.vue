@@ -9,6 +9,9 @@
 <script>
 import Nav from '~/components/Nav'
 import Footer from '~/components/Footer'
+import Vue from 'vue'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
 export default {
   components: {
     Nav,
@@ -16,6 +19,7 @@ export default {
   }
 }
 </script>
+
 
 
 <style>
