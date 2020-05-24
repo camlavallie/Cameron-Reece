@@ -2,7 +2,7 @@
    <div class="container">
 
 <div class="text-3xl lg:text-5xl font-thin text-center mt-12">
-      <p class="text-gray-900">Blog Coming Soon...</p>
+      <p class="text-gray-900">Blog Coming Soon..</p>
       <p class="text-3xl text-gray-500">For now enjoy some beautiful photos!</p>
     </div> 
     <b-carousel :autoplay="false" indicator-custom :indicator-inside="false" :overlay="gallery">
