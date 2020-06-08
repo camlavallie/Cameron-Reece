@@ -1,93 +1,81 @@
 <template>
   <!-- component -->
-  <main class="py-4">
-    <div class="px-4">
-      <div class="block md:flex justify-between md:-mx-2">
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS2.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS4.png" alt>
-          </div>
-        </div>
+
+  <main class>
+    <!-- component -->
+    <div>
+    <div
+      class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill my-24 bg-gray-900"
+    >
+      <div class="md:w-8/12">
+        <img
+          class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 object-cover object-center"
+          src="../../assets/summit-images/Mount-1.png"
+          alt
+        >
       </div>
     </div>
-
-    <div class="px-4">
-      <div class="block md:flex justify-between md:-mx-2">
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS10.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS6.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS7.png" alt>
-          </div>
-        </div>
+    </div>
+    <div
+      class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill my-24 bg-gray-900"
+    >
+      <div class="md:w-7/12">
+        <img
+          class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 object-cover object-center"
+          src="../../assets/summit-images/Mount-2.png"
+          alt
+        >
       </div>
     </div>
-
-    <div class="px-4">
-      <div class="block md:flex justify-between md:-mx-2">
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS8.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS11.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS12.png" alt>
-          </div>
-        </div>
+    
+    
+    <div
+      class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill my-24 bg-gray-900"
+    >
+      <div class="md:w-1/2">
+        <img
+          class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 object-cover object-center"
+          src="../../assets/summit-images/Mount-8.png"
+          alt
+        >
       </div>
     </div>
-
-    <div class="px-4">
-      <div class="block md:flex justify-between md:-mx-2">
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS13.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS14.png" alt>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS15.png" alt>
-          </div>
-        </div>
+    
+    <div
+      class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill my-24 bg-gray-900"
+    >
+      <div class="md:w-1/2">
+        <img
+          class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 object-cover object-center"
+          src="../../assets/summit-images/Mount-4.png"
+          alt
+        >
       </div>
     </div>
-
-    <div class="px-4">
-      <div class="block md:flex justify-between md:-mx-2">
-        <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
-          <div class="bg-white my-24 m-4 rounded-lg overflow-hidden relative">
-            <img class="object-cover object-center" src="../../assets/summit-images/SWS16.png" alt>
-          </div>
-        </div>
+    
+    
+    
+    <div
+      class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill my-24 bg-gray-900"
+    >
+      <div class="md:w-1/2">
+        <img
+          class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 object-cover object-center"
+          src="../../assets/summit-images/Mount-7.png"
+          alt
+        >
+      </div>
+    </div>
+    
+    <div
+      class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill my-24 bg-gray-900"
+    >
+      <div class="md:w-1/2">
+        <img
+          class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 object-cover object-center"
+          src="../../assets/summit-images/Mount-9.png"
+          alt
+        >
       </div>
     </div>
   </main>
