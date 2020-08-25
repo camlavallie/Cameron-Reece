@@ -1,31 +1,31 @@
 <template>
   <div id="top-page">
-    <Nav />
-    <nuxt />
-    <Footer />
+    <Nav/>
+    <nuxt/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import Nav from '~/components/Nav'
-import Footer from '~/components/Footer'
-import Vue from 'vue'
-import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
+import Nav from "~/components/Nav";
+import Footer from "~/components/Footer";
+import Vue from "vue";
+// import Buefy from "buefy";
+// import 'buefy/dist/buefy.css'
 export default {
   components: {
     Nav,
     Footer
   }
-}
+};
 </script>
 
 
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
