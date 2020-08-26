@@ -52,7 +52,7 @@
             Cameron
             <span class="text-blue-500">|Reece</span>
           </span> All rights reserved.
-          <nuxt-link class="hover:text-blue-500" to="/privacy">Privacy Policy</nuxt-link>
+          <a class="hover:text-blue-500" href="/privacy">Privacy Policy</a>
         </p>
       </div>
     </div>

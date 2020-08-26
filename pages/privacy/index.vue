@@ -1,5 +1,5 @@
 <template>
-  <div class>
+  <div id="privacy">
     <div class="p-3 lg:m-24 m-3 font-thin tracking-wide shadow-lg rounded-lg">
       <div class="font-semibold text-3xl">Cameron Reece Pivacy Notice</div>
       <div
