@@ -47,7 +47,10 @@
         to="/#skills"
         class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
       >Skills</nuxt-link>
-      <!-- <nuxt-link to="/blog" class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2">Blog</nuxt-link> -->
+      <nuxt-link
+        to="/contact"
+        class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
+      >Contact</nuxt-link>
       <nuxt-link
         to="/give"
         class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"

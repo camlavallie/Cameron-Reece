@@ -1,47 +1,40 @@
 <template>
-  <div class="container ">
+  <div class="container">
     <div>
-      <JumboOne />
-  
-      <div class="mt-12 mb-24">
-      <hr class="mb-12">
-      <JumboFive />
-      <hr class="mt-12">
-      </div>
-      
-      <div class="mb-24" id="work">        
-      <h1 class="text-3xl lg:text-5xl font-thin">
-        Recent Work
-      </h1>
-      <JumboTwo />
+      <JumboOne/>
+
+      <div class="my-24" id="work">
+        <h1 class="text-3xl lg:text-5xl font-thin">Recent Work</h1>
+        <JumboTwo/>
       </div>
       <div class="sticky flex text-left bg-opacity-25 top-0 left-0 trasnparent-25">
-      <JumboButtons />
+        <JumboButtons/>
       </div>
 
       <div class="mb-24" id="skills">
-        <h1 class="text-3xl lg:text-5xl font-thin">
-        My Favorite Things!
-      </h1>
-      <JumboThree />
+        <h1 class="text-3xl lg:text-5xl font-thin">My Favorite Things!</h1>
+        <JumboThree/>
       </div>
 
       <div>
-      <JumboFour />
+        <JumboFour/>
       </div>
-
-      
+      <div class="mt-12 mb-24">
+        <hr class="mb-12">
+        <JumboFive/>
+        <hr class="mt-12">
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import JumboOne from '~/components/JumboOne.vue'
-import JumboTwo from '~/components/JumboTwo.vue'
-import JumboThree from '~/components/JumboThree.vue'
-import JumboFour from '~/components/JumboFour.vue'
-import JumboFive from '~/components/JumboFive.vue'
-import JumboButtons from '~/components/JumboButtons.vue'
+import JumboOne from "~/components/JumboOne.vue";
+import JumboTwo from "~/components/JumboTwo.vue";
+import JumboThree from "~/components/JumboThree.vue";
+import JumboFour from "~/components/JumboFour.vue";
+import JumboFive from "~/components/JumboFive.vue";
+import JumboButtons from "~/components/JumboButtons.vue";
 
 export default {
   components: {
@@ -50,9 +43,9 @@ export default {
     JumboThree,
     JumboFour,
     JumboFive,
-    JumboButtons,
+    JumboButtons
   }
-}
+};
 </script>
 
 <style>
@@ -69,8 +62,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   color: #35495e;
