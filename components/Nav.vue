@@ -39,14 +39,14 @@
         to="/"
         class="block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white"
       >Home</nuxt-link>
-      <nuxt-link
-        to="/#work"
+      <a
+        href="/#work"
         class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
-      >My Work</nuxt-link>
-      <nuxt-link
-        to="/#skills"
+      >My Work</a>
+      <a
+        href="/#skills"
         class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
-      >Skills</nuxt-link>
+      >Skills</a>
       <nuxt-link
         to="/contact"
         class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
