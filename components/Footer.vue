@@ -4,7 +4,7 @@
 
 <template>
   <footer class="flex justify-center px-4 text-gray-100 bg-gray-800">
-    <div class="container py-6">
+    <div class="py-6">
       <h1 class="text-center text-lg font-thin lg:text-2xl">
         “The path of the righteous is level; you, the Upright One, make the way of the righteous smooth. Yes, Lord, walking in the way of your laws, we wait for you; your name and renown are the desire of our hearts. My soul yearns for you in the night; in the morning my spirit longs for you.”
         <br>Isaiah 26:7-9
@@ -23,19 +23,19 @@
           <div class="-mx-4">
             <a
               href="/"
-              class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
+              class="text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
             >Home</a>
             <a
               href="/#work"
-              class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
+              class="text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
             >My Work</a>
             <a
               href="/#skills"
-              class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
+              class="text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
             >Skills</a>
             <a
               href="/contact"
-              class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
+              class="text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
             >Contact</a>
             <!-- <a href="/blog" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Blog</a> -->
             <a
