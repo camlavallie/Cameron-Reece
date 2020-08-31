@@ -3,7 +3,6 @@
     <div class="rounded bg-white text-center px-6 py-4">
       <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
         <div class="sm:grid sm:h-32 sm:grid-flow-row sm:gap-4 sm:grid-cols-3">
-
           <div
             id="jh-stats-neutral"
             class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0"
@@ -24,16 +23,12 @@
                 </p>
               </div>
               <div class="flex justify-center">
-                <img
-                  src="../assets/images/nuxt.svg"
-                  class="-mt-6 object-center h-16 w-16"
-                >
+                <img src="../assets/images/nuxt.svg" class="-mt-6 object-center h-16 w-16">
               </div>
               <p class="text-lg text-center text-gray-500">NuxtJS</p>
             </div>
           </div>
 
-          
           <div
             id="jh-stats-neutral"
             class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0"
@@ -54,15 +49,12 @@
                 </p>
               </div>
               <div class="flex justify-center">
-                <img
-                  src="../assets/images/vue.svg"
-                  class="-mt-6 object-center  h-12 w-12"
-                >
+                <img src="../assets/images/vue.svg" class="-mt-6 object-center h-12 w-12">
               </div>
               <p class="text-lg text-center text-gray-500">VueJS</p>
             </div>
           </div>
-<div
+          <div
             id="jh-stats-positive"
             class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded"
           >
@@ -111,16 +103,11 @@
                 </p>
               </div>
               <div class="flex justify-center">
-                <img
-                  src="../assets/images/angular-icon.svg"
-                  class="-mt-6 object-center h-16 w-16"
-                >
+                <img src="../assets/images/angular-icon.svg" class="-mt-6 object-center h-16 w-16">
               </div>
               <p class="text-lg text-center text-gray-500">AngularJS</p>
             </div>
           </div>
-
-
 
           <div
             id="jh-stats-neutral"
@@ -151,9 +138,6 @@
             </div>
           </div>
 
-
-
-
           <div
             id="jh-stats-negative"
             class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0"
@@ -174,17 +158,11 @@
                 </p>
               </div>
               <div class="flex justify-center">
-                <img
-                  src="../assets/images/bootstrap.svg"
-                  class="-mt-6 object-center h-16 w-16"
-                >
+                <img src="../assets/images/bootstrap.svg" class="-mt-6 object-center h-16 w-16">
               </div>
               <p class="text-lg text-center text-gray-500">Bootstrap</p>
             </div>
           </div>
-
-
-
         </div>
       </div>
     </div>
