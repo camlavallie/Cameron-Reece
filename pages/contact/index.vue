@@ -8,6 +8,7 @@
           <div class="text-xl mt-4">Have a question? Message me and I will be in touch!</div>
         </div>
         <div class="md:w-1/2 flex justify-start mt-5 md:justify-end w-full md:w-1/2">
+            <!-- action="https://formspree.io/mlepkqzj" -->
           <form
             action="https://formspree.io/mlepkqzj"
             method="POST"
