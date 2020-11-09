@@ -1,15 +1,26 @@
 <template>
   <div>
     <!-- component -->
-    <div class="mx-auto max-w-6xl p-12">
-      <div class="flex flex-col md:flex-row justify-center">
-        <div class="md:w-1/2 max-w-md flex flex-col justify-center px-1">
-          <div class="md:text-4xl text-xl font-black uppercase">Contact Me</div>
-          <div class="text-xl mt-4">Have a question? Message me and I will be in touch!</div>
+  
+
+    <!-- component -->
+<!-- start -->
+    <div class="container flex flex-col justify-center items-center mx-auto my-8 py-10">
+        <div style="background-image: url(https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+            class="max-w-5xl bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center">
         </div>
-        <div class="md:w-1/2 flex justify-start mt-5 md:justify-end w-full md:w-1/2">
-            <!-- action="https://formspree.io/mlepkqzj" -->
-          <form
+
+        <!-- Card -->
+        <div class="bg-white -mt-24 shadow-md rounded-lg overflow-hidden">
+            <div class="items-center justify-between py-10 px-5 bg-white shadow-2xl rounded-lg mx-auto text-center">
+                <div class="px-2 -mt-6">
+                    <div class="text-center">
+                        <h1 class=" text-3xl text-grey-800 font-thin leading-loose my-3 w-full">Contact Cameron<span class="text-blue-500">|Reece</span></h1>
+                        <div class="text-lg text-gray-500">We will respond to your message within 24 hours</div>
+                        <div class="w-full text-center">
+                            <form action="#">
+                                <div class="max-w-sm mx-auto p-1 pr-0 flex items-center">
+                                     <form
             action="https://formspree.io/mlepkqzj"
             method="POST"
             id="contact-me"
@@ -84,9 +95,24 @@
               >Send</button>
             </div>
           </form>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <!-- end card -->
+
     </div>
+    <!-- end -->
+
+
+
+
+
+
+
   </div>
 </template>
 <script>
