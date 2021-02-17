@@ -39,10 +39,29 @@
       </div>
     </div>
     <hr>
-    <div class="p-3 w-1/3 float-right text-right font-thin">
-      <div>
-        <p>Certified Software Developer</p>
-        <div class="float-right">
+    <div class="p-3 flex flex-wrap justify-center text-Left font-thin">
+      <div class="m-12">
+        <p>
+          Bachelors
+          <span class="text-blue-500 italic font-bold">(Graphic Design)</span>
+        </p>
+        <div class>
+          <a href="https://www.evangel.edu/" target="_blank" class>
+            <img
+              class="w-48 rounded-lg origin-center transform hover:scale-75"
+              src="~/assets/images/Evangel-logo.png"
+              alt
+            >
+          </a>
+          <p class="underline">Evangel University Grad!</p>
+        </div>
+      </div>
+      <div class="m-12">
+        <p>
+          Certified
+          <span class="text-blue-500 italic font-bold">(Software Developer)</span>
+        </p>
+        <div class>
           <a href="https://betheltech.net/" target="_blank" class>
             <img
               class="w-48 rounded-lg origin-center transform hover:scale-75"
@@ -50,7 +69,7 @@
               alt
             >
           </a>
-          <p>Bethel Tech Grad!</p>
+          <p class="mt-2 underline">Bethel Tech Grad!</p>
         </div>
       </div>
     </div>
