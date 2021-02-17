@@ -6,16 +6,14 @@
         class="w-full rounded"
       >
     </div>
-    <div class="px-2 pb-5">
-      <h1
-        class="text-4xl justify-center text-gray-800 text-thin mt-3 font-thin"
-      >Cameron Reece LaVallie</h1>
-      <p class="text-2xl justify-center text-gray-800 text-thin mb-3 font-thin">
+    <div class="px-2 pb-5 text-center">
+      <h1 class="text-4xl text-gray-800 text-thin mt-3 font-thin">Cameron Reece LaVallie</h1>
+      <p class="text-2xl text-gray-800 text-thin mb-3 font-thin">
         I built this site with
         <span class="text-blue-500 font-semibold">Nuxt | VueJS</span>
       </p>
       <div class="flex flex-wrap justify-center items-center">
-        <img class="w-48 rounded-full mr-3 md:mr-4 lg:mr-4" src="~assets/images/NewCam.jpg">
+        <img class="w-48 m-1 rounded-full md:mr-4 lg:mr-4" src="~assets/images/NewCam.jpg">
         <div class="text-sm mt-3 md:mt-0 lg:mt-0">
           <p class="text-gray-900 leading-none text-xl font-thin">
             Junior Developer ~
@@ -40,7 +38,7 @@
     </div>
     <hr>
     <div class="flex flex-wrap justify-center text-center font-thin">
-      <div class="m-12 text-center">
+      <div class="m-12">
         <p>
           Bachelors
           <br>
@@ -57,13 +55,13 @@
           <p class="underline">Evangel University Grad!</p>
         </div>
       </div>
-      <div class="m-12 text-center">
+      <div class="m-12">
         <p class>
           Certified
           <br>
           <span class="text-blue-500 italic font-bold">(Software Developer)</span>
         </p>
-        <div class="text-center">
+        <div class>
           <a href="https://betheltech.net/" target="_blank" class>
             <img
               class="w-48 rounded-lg origin-center transform hover:scale-75"
