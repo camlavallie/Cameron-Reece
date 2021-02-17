@@ -37,24 +37,20 @@
     >
       <nuxt-link
         to="/"
-        class="block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white"
+        class="block group focus:bg-blue-600 px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white"
       >Home</nuxt-link>
       <a
         href="/#work"
-        class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
+        class="mt-1 group focus:bg-blue-500 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
       >My Work</a>
       <a
         href="/#skills"
-        class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
+        class="mt-1 group focus:bg-blue-500 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
       >Skills</a>
       <nuxt-link
         to="/contact"
-        class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
+        class="mt-1 group focus:bg-blue-500 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
       >Contact</nuxt-link>
-      <nuxt-link
-        to="/give"
-        class="mt-1 block px-2 py-1 text-white font-thin rounded hover:bg-gray-800 hover:text-white sm:mt-0 sm:ml-2"
-      >Give</nuxt-link>
     </nav>
   </header>
 </template>

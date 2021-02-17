@@ -20,9 +20,7 @@
         <JumboFour/>
       </div>
       <div class="mt-12 mb-24">
-        <hr class="mb-12">
         <JumboFive/>
-        <hr class="mt-12">
       </div>
     </div>
   </div>

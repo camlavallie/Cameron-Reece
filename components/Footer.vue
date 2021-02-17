@@ -38,10 +38,6 @@
               class="text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
             >Contact</a>
             <!-- <a href="/blog" class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2">Blog</a> -->
-            <a
-              href="/give"
-              class="px-4 text-sm text-white hover:text-white hover:bg-gray-900 rounded-md p-2"
-            >Give</a>
           </div>
         </div>
       </div>
