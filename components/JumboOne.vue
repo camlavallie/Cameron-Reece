@@ -39,10 +39,11 @@
       </div>
     </div>
     <hr>
-    <div class="p-3 flex flex-wrap justify-center text-center font-thin">
+    <div class="flex flex-wrap justify-center text-center font-thin">
       <div class="m-12 text-center">
         <p>
           Bachelors
+          <br>
           <span class="text-blue-500 italic font-bold">(Graphic Design)</span>
         </p>
         <div class>
@@ -59,6 +60,7 @@
       <div class="m-12 text-center">
         <p class>
           Certified
+          <br>
           <span class="text-blue-500 italic font-bold">(Software Developer)</span>
         </p>
         <div class="text-center">
