@@ -15,7 +15,7 @@
             <div class="items-center justify-between py-10 px-5 bg-white shadow-2xl rounded-lg mx-auto text-center">
                 <div class="px-2 -mt-6">
                     <div class="text-center">
-                        <h1 class=" text-3xl text-grey-800 font-thin leading-loose my-3 w-full">Contact Cameron<span class="text-blue-500">|Reece</span></h1>
+                        <h1 class=" text-3xl text-grey-800 font-thin leading-loose my-3 w-full">Contact Cameron <span class="text-blue-500">|Reece</span></h1>
                         <div class="text-lg text-gray-500">We will respond to your message within 24 hours</div>
                         <div class="w-full text-center">
                             <form action="#">
