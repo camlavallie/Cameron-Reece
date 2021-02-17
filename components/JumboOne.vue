@@ -71,7 +71,7 @@
               alt
             >
           </a>
-          <p class="mt-2 underline mr-2">Bethel Tech Grad!</p>
+          <p class="mt-2 underline">Bethel Tech Grad!</p>
         </div>
       </div>
     </div>
