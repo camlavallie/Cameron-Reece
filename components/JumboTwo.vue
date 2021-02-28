@@ -2,7 +2,7 @@
   <div class="flex flex-wrap">
     <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
       <div class>
-        <a href="https://optimistic-kepler-eed21f.netlify.app/" target="_blank">
+        <a href="https://www.summit-ws.com/" target="_blank">
           <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
             <div
               class="right-0 mt-4 rounded-l-full absolute text-center font-bold text-xs text-white px-2 py-1 bg-blue-500"

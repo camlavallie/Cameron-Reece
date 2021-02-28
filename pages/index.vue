@@ -7,7 +7,7 @@
         <h1 class="text-3xl lg:text-5xl font-thin">Recent Work</h1>
         <JumboTwo/>
       </div>
-      <div class="sticky flex text-left bg-opacity-25 top-0 left-0 trasnparent-25">
+      <div class="inset-x-0 bottom-0 relative trasnparent-25">
         <JumboButtons/>
       </div>
 
