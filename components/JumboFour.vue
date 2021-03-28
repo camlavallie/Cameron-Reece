@@ -17,7 +17,7 @@
       <p class="text-2xl text-grey-900 hover:border-b-2 font-medium mb-4">Skies The Limit</p>
       <div>
         <a
-          href="https://docs.google.com/document/d/1DT06cTHFCT-7_RM0fxSoUFWjlqN5kPGFPLykO29XYXU/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1bMCzmpW2__NSs59VDNH47VQ5mH7soQ0UVL50XLG7WfY/edit?usp=sharing"
           target="_blank"
         >
           <button

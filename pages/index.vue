@@ -42,6 +42,24 @@ export default {
     JumboFour,
     JumboFive,
     JumboButtons
+  },
+  head: {
+    title: "Cameron Reece",
+    meta: [
+      {
+        charset: "utf-8"
+      },
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1"
+      },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "My Name is Cameron Reece LaVallie and Im a Junior Software Developer, a Bethel School of Technology (Rated #1 in Bootcamps) Graduate. Located in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam."
+      }
+    ]
   }
 };
 </script>

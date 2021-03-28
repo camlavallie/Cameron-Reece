@@ -15,12 +15,12 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'My Name is Cameron Reece LaVallie and Im a Certified Software Developer, a Bethel Tech Graduate residing in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam.'
+        content: 'My Name is Cameron Reece LaVallie and Im a Junior Software Developer, a Bethel School of Technology (Rated #1 in Bootcamps) Graduate. Located in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam.'
       },
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'Cameron Reece, Cameron Reece LaVallie, Cameron LaVallie, Certified Software Developer. Bethel Tech Graduate. Software Developer, Junior Developer, React, JavaScript, Angular, Tailwind, Vue, Nuxt. Fort Worth, Texas. Bethel Tech. '
+        content: 'My Name is Cameron Reece LaVallie and Im a Junior Software Developer, a Bethel School of Technology (Rated #1 in Bootcamps) Graduate. Located in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam.'
       }
     ],
     link: [{
