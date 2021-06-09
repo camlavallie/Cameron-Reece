@@ -15,7 +15,7 @@
         If you have any questions about the processing of your personal data, you can reach us at
         <a
           class="text-blue-500"
-          href="mailto:cameronreece91@gmail.com"
+          href="mailto:camlavallie@gmail.com"
         >Cameron Reece</a>.
       </div>
       <div class="font-semibold text-3xl">Data we collect and how we use it</div>
@@ -84,7 +84,7 @@
         You may contact us anytime at
         <a
           class="text-blue-500"
-          href="mailto:cameronreece91@gmail.com"
+          href="mailto:camlavallie@gmail.com"
         >Cameron Reece</a> to request to exercise your rights as data subject, which are:
         <div class="p-3">
           the right to request access to your personal data;

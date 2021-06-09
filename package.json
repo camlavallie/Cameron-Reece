@@ -13,7 +13,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "buefy": "^0.8.19",
-    "nuxt": "^2.14.3"
+    "nuxt": "^2.14.3",
+    "prettier": "^1.19.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0"

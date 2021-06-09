@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav";
-import Footer from "~/components/Footer";
-import Vue from "vue";
+import Nav from '~/components/Nav'
+import Footer from '~/components/Footer'
+import Vue from 'vue'
 // import Buefy from "buefy";
 // import 'buefy/dist/buefy.css'
 export default {
@@ -17,7 +17,7 @@ export default {
     Nav,
     Footer
   }
-};
+}
 </script>
 
 
@@ -25,8 +25,8 @@ export default {
 <style>
 html,
 body {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
