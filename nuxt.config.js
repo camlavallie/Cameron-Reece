@@ -5,7 +5,8 @@ export default {
    */
   head: {
     title: 'Cameron Reece',
-    meta: [{
+    meta: [
+      {
         charset: 'utf-8'
       },
       {
@@ -15,19 +16,23 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'My Name is Cameron Reece LaVallie and Im a Junior Software Developer, a Bethel School of Technology (Rated #1 in Bootcamps) Graduate. Located in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam.'
+        content:
+          'My Name is Cameron Reece LaVallie and Im a Junior Software Developer, a Bethel School of Technology (Rated #1 in Bootcamps) Graduate. Located in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam.'
       },
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'My Name is Cameron Reece LaVallie and Im a Junior Software Developer, a Bethel School of Technology (Rated #1 in Bootcamps) Graduate. Located in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam.'
+        content:
+          'My Name is Cameron Reece LaVallie and Im a Junior Software Developer, a Bethel School of Technology (Rated #1 in Bootcamps) Graduate. Located in Fort Worth, Texas. React, Angular, Tailwind, Vue, and Nuxt are my jam.'
       }
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -42,33 +47,36 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    {
+      src: './plugins/GoogleAnalytics.js',
+      mode: 'client'
+    }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss'
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
   ],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: process.env.BASE_URL || 'http://localhost:5000/api/sendToMe',
-
+    baseURL: process.env.BASE_URL || 'http://localhost:5000/api/sendToMe'
   },
 
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:5000/api/sendToMe',
-
+    baseUrl: process.env.BASE_URL || 'http://localhost:5000/api/sendToMe'
   },
   /*
    ** Build configuration

@@ -44,7 +44,7 @@
               Visit the site!
             </div>
             <img
-              src="../assets/images/khm.png"
+              src="../assets/images/dfw.png"
               class="h-32 rounded-lg w-full object-cover"
             />
             <div class="flex justify-center">
@@ -146,7 +146,7 @@
               Visit the site!
             </div>
             <img
-              src="../assets/images/smmhc.png"
+              src="../assets/images/sws.png"
               class="h-32 rounded-lg w-full object-cover"
             />
             <div class="flex justify-center">
@@ -181,7 +181,7 @@
               Visit the site!
             </div>
             <img
-              src="../assets/images/elena-kathryn.png"
+              src="../assets/images/ekl.png"
               class="h-32 rounded-lg w-full object-cover"
             />
             <div class="flex justify-center">
