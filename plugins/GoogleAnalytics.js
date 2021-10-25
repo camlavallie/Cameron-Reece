@@ -7,7 +7,7 @@ export default ({ app }) => {
   Vue.use(
     VueGtag,
     {
-      config: { id: 'GTM-KZ3ZQVF' },
+      config: { id: 'G-YH2T1Q2BBC' },
       bootstrap: getGDPR === 'true',
       appName: 'Cameron Reece',
       enabled: getGDPR === 'true',
