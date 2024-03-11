@@ -18,6 +18,6 @@
     "vue-gtag": "^1.16.1"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "@nuxtjs/tailwindcss": "^6.11.4"
   }
 }
