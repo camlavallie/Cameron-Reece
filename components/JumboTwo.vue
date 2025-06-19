@@ -137,7 +137,7 @@
     </div>
     <div class="w-full md:w-1/3 py-4 px-4">
       <div class>
-        <a href="https://www.lavallieroastery.com" target="_blank">
+        <a href="https://www.thepeacegov.com" target="_blank">
           <div
             class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg"
           >
@@ -158,7 +158,7 @@
             </div>
             <div class="py-2 px-2">
               <div class="font-bold font-title text-center">
-                LA VALLIE ROASTERY
+                The Peace Gov. | LaVallie Roasters & Co.
               </div>
 
               <div class="text-sm font-light text-center my-2">
