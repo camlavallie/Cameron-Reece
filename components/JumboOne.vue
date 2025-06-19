@@ -21,7 +21,7 @@
         />
         <div class="text-sm mt-3 md:mt-0 lg:mt-0">
           <p class="text-gray-900 leading-none text-xl font-thin">
-            Junior Developer ~
+            Graphic Designer ~ Email & Web Developer ~
             <span class="font-thin text-gray-700">Fort Worth, Texas</span>
           </p>
           <p class="text-gray-600 mt-3 font-thin">
