@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <JumboOne />
-
+      
       <div class="my-24" id="work">
         <h1 class="text-3xl lg:text-5xl font-thin">Recent Work</h1>
         <JumboTwo />
